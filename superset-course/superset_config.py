@@ -11,4 +11,4 @@ LANGUAGES = {
     "ru": {"flag": "ru", "name": "Русский"},
 }
 
-print("✅ Custom config with disabled reCAPTCHA loaded!")
+print("✅ Custom config is uploaded")
