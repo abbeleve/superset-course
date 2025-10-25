@@ -1,13 +1,13 @@
 {
-  "name": "superset-chart-hello-world-yupest",
+  "name": "superset-chart-hello-world-abbeleve",
   "version": "0.0.0",
   "description": "A sample chart plugin for Superset demonstrating current best practices",
   "main": "src/chart.ts",
   "scripts": {
     "test": "jest",
     "tdd": "NODE_ENV=test jest --watch",
-    "build:prod": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=production webpack --mode=production",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=development webpack --mode=development",
+    "build:prod": "set NODE_OPTIONS=--openssl-legacy-provider && set NODE_ENV=production && webpack --mode=production",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && set NODE_ENV=development && webpack --mode=development",
     "build:watch": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=development webpack --mode=development --watch",
     "serve": "http-server dist -c-1 --cors"
   },
@@ -21,7 +21,7 @@
     "async",
     "plugin"
   ],
-  "author": "Yuliya Pestova",
+  "author": "Aleksandrov Andrey",
   "license": "Apache-2.0",
   "devDependencies": {
     "@airbnb/config-eslint": "^3.1.0",
